@@ -1,0 +1,22 @@
+.place__text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    max-width: 484px;
+}
+@media screen and (max-width: 1024px) {
+    .place__text-container {
+        max-width: 456px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .place__text-container {
+        max-width: 352px;
+    }
+}
+@media screen and (max-width: 425px) {
+    .place__text-container {
+        max-width: 288px;
+        margin: 0 16px;
+    }
+}

@@ -1,0 +1,30 @@
+.place__content {
+    display: flex;
+    gap: 40px;
+    
+}
+.place__content:nth-child(2) {
+    margin-top: 4.9%;
+}
+@media screen and (max-width: 1024px) {
+    .place__content {
+        gap: 32px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .place__content {
+        gap: 28px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .place__content {
+        gap: 28px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 425px) {
+    .place__content {
+        gap: 32px;
+    }
+}
