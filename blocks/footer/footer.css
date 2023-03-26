@@ -1,8 +1,7 @@
 .footer {
     margin: 92px 48px 24px;
     display: flex;
-    align-content: center;
-    gap: 18px;
+    align-content: space-between;
 }
 @media screen and (max-width: 768px) {
     .footer {
@@ -12,10 +11,10 @@
 @media screen and (max-width: 710px) {
     .footer {
         max-width: 186px;
+        margin: 64px auto 24px 16px;
         flex-direction: column;
         flex-wrap: wrap;
         justify-content: flex-start;
-        gap: 32px;
-        margin: 64px auto 24px 16px;
+        gap: 48px;
     }
 }
