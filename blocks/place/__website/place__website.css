@@ -3,6 +3,7 @@
     flex-direction: column;
     justify-content: flex-end;
     max-width: 460px;
+    
 }
 @media screen and (max-width: 1024px) {
     .place__website {
@@ -12,6 +13,11 @@
 @media screen and (max-width: 768px) {
     .place__website { 
         max-width: 340px;
+        
+    }
+}
+@media screen and (max-width: 588px) {
+    .place__title { 
         width: 100%;
     }
 }
