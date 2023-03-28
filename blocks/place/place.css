@@ -4,6 +4,9 @@
     justify-content: space-between;
     margin-top: 80px;
 }
+.place:first-child {
+    margin-top: 0;
+}
 @media screen and (max-width: 768px) {
     .place{
         margin-top: 73px;

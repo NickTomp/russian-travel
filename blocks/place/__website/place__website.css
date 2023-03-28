@@ -13,11 +13,6 @@
 @media screen and (max-width: 768px) {
     .place__website { 
         max-width: 340px;
-        
-    }
-}
-@media screen and (max-width: 588px) {
-    .place__title { 
         width: 100%;
     }
 }
