@@ -25,7 +25,7 @@
 
 ## Ссылка на проект
 
-https://nicktomp.github.io/russian-travel/
+http://russian-travel.ktomp.ru/
 
 ## Автор
 
